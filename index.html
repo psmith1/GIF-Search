@@ -5,25 +5,33 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>.gif search</title>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <!-- Feelings get dumped here -->
-        <div id="buttons-view"></div>
+        <!-- buttons appear here -->
+        <div id="buttons-area">
+
+        </div>
 
         <div class="container">
-            <h1>Add a feeling</h1>
+            <h1>Share your feelings...
+            </h1>
+            <p>Add in your search and click the button. Click each .gif to start/stop.
+            </p>
 
-            <form id="feeling-form">
-                <label for="feeling-input">Search a feeling</label>
-                <input type="text" id="feeling-input"><br>
+        <form id="search-form">
+            <label for="search-input">Add in your search</label>
+            <input type="text" id="search-input"><br>
+            <input id="addSearch" type="submit" value="Submit">
+        </form>
+        </div>
+        <!-- .gifs appear here -->
+        <div id="searches">
 
-                <!-- Button triggers new feeling to be added -->
-                <input id="add-feeling" type="submit" value="Add a feeling">
-            </form>
         </div>
-        <div id="gifs-appear-here">
-        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/app.js" type="text/javascript"></script>
+
     </body>
     </html>
-            <script type="text/javascript" src="assets/javascript/app.js"> </script>
