@@ -9,3 +9,5 @@ An API Key is included in the code to initialize GIPHY.
 Please contact Peter at https://github.com/psmith1 if you have questions about this project. He currently maintains the repository and monitors any contributions.
 
 Enjoy!
+
+https://psmith1.github.io/GIF-Search/
